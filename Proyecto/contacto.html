@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Contacto | Formulario</title>
+   <link rel="stylesheet" href="./css/styles.css">
+   <script src="https://kit.fontawesome.com/65637f37f0.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,600&family=Poppins&display=swap" rel="stylesheet">
+
+    <header>
+        <nav class="logo_container">
+            <a class="navegacion" href="#">Inicio</a>
+            <a class="navegacion" href="#">Nosotros</a>
+            <img id="logo" src="./img/logo-bco-sin-fondo.png" alt="logo-billy" />
+            <a class="navegacion" href="./contacto.html">Contacto</a>
+            <a class="navegacion" href="#sucursales">Sucursales</a>
+            </nav>
+    </header>
+<main>
+   
+    <form action="#" class="formulario" id="formulario">
+ 
+        <section class="formulario__grupo" id="grupo__nombre">
+            <label class="formulario__label">Nombre</label>
+            <section class="formulario__grupo-input">
+                <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Ana">
+                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+            </section>
+            <p class="formulario__input-error">El nombre debe tener minimo 3 caracteres y solo se admiten números, letras y guión bajo.</p>
+        </section>
+
+
+        <section class="formulario__grupo" id="grupo__apellido">
+            <label class="formulario__label">Apellido</label>
+            <section class="formulario__grupo-input">
+                <input type="text" class="formulario__input" name="apellido" id="apellido" placeholder="Paz">
+                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+            </section>
+            <p class="formulario__input-error">El apellido debe tener minimo 3 caracteres y solo se admiten números, letras y guión bajo.</p>
+        </section>
+
+        <section class="formulario__grupo" id="grupo__correo">
+            <label class="formulario__label">Correo Electronico</label>
+            <section class="formulario__grupo-input">
+                <input type="email" class="formulario__input" name="correo" id="correo" placeholder="correo@correo.com">
+                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+            </section>
+            <p class="formulario__input-error">El correo es incorrecto.</p>
+        </section>
+
+        <section class="formulario__grupo" id="grupo__telefono">
+            <label class="formulario__label">Teléfono</label>
+            <section class="formulario__grupo-input">
+                <input type="telefono" class="formulario__input" name="telefono" id="telefono" placeholder="0123456789">
+                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+            </section>
+            <p class="formulario__input-error">El número debe tener 10 digitos</p>
+        </section>
+
+        <section class="formulario__grupo" id="grupo__comentarios">
+            <label class="formulario__label">Comentarios y sugerencias</label>
+            <section class="formulario__grupo-input">
+                <input type="text" class="formulario__input" name="comentarios" id="comentarios" placeholder="Contanos tu experiencia">
+                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+            </section>
+            <p class="formulario__input-error">El comentario debe tener minimo 20 caracteres.</p>
+        </section>
+
+        <section class="formulario__grupo formulario__grupo-terminos" id="grupo__terminos">
+            <label class="formulario__label">
+                <input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos">
+                <b class="formulario__span">Acepto los terminos y condiciones</b>
+            </label>
+        </section>
+
+        <section class="formulario__mensaje" id="formulario__mensaje">
+            <p><i class="fas fa-exclamation-circle"> <b>Error:</b> Debes completar todos los campos</i></p>
+        </section>
+
+        <section class="formulario__grupo formulario__grupo-btn-enviar">
+            <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">El formulario se envió correctamente</p>
+            <input class="formulario__btn" type="submit" value="Enviar">
+        </section>
+    </form>
+</main>
+
+    <script src="./js/script.js"></script>
+
+<section class="Sucursales" id="sucursales">Nuestras sucursales</section>
+<section class="mapas" id="mapas">  
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.530084359509!2d-58.504784424998995!3d-34.69180766215453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc98727b2f5d5%3A0x69d973f18952ce37!2sMely&#39;s%20bake!5e0!3m2!1ses-419!2sar!4v1682303210098!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3337.655934278871!2d-54.38844342508234!3d-33.223115285904505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x950be90c20f89683%3A0x7f660ea0840f1ce!2sBilly%20y%20mandy!5e0!3m2!1ses-419!2sar!4v1682303482860!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6663.356614084391!2d-70.73246662229002!3d-33.3794636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c16d08d1e8bf%3A0xe1e5ef4b6150a44b!2sBilly%20tortas!5e0!3m2!1ses-419!2sar!4v1682303587842!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+    <footer>
+        <h2>Redes sociales</h2>
+        <span>
+          <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+          <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        </span>
+        <p>&copy;Copyright 2023 Pastelería Billy</p>
+      </footer>
+</body>
+</html>
+
