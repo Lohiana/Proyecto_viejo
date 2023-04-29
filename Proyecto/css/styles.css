@@ -177,12 +177,26 @@ main {
     margin: 0 10px;
 }
 
+#grupo__comentarios {
+    display: grid;
+    grid-column: span 2;
+    text-align: center;
+}
+
+#comentarios{
+    text-align: center;
+}
+
 .formulario__grupo-terminos {
     text-align: center;
 }
 
 .formulario__grupo-terminos, .formulario__mensaje, .formulario__grupo-btn-enviar {
     grid-column: span 2;
+}
+
+.formulario__grupo-btn-enviar {
+    padding: 25px;
 }
 
 .formulario__mensaje {
@@ -258,12 +272,11 @@ main {
     }
 
 #mapas{
-      overflow:hidden;
-      margin: 2% 5%  0 5%;
-       padding-bottom:0;
-        max-width:100%;
-       position:active;
-}
+      height: auto;
+      padding: 25px;
+      max-width:95%;
+      position: relative;
+    }
     
     
 
